@@ -19,6 +19,10 @@ public class SportsEvent extends Event {
     return teams;
   }
 
+  public String getDetails(){
+    return details;
+  }
+
   @Override
   public void displaySpecificDetails(){
     System.out.println("Event Type: Sports Event");
