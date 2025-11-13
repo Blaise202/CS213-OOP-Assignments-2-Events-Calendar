@@ -55,7 +55,7 @@ public class Driver {
 
     // Loop through the list and display information about each event
     System.out.println("  ASHESI UNIVERSITY EVENTS CALENDAR ");
-    System.out.println("======================================== \n \n");
+    System.out.println("========================================");
 
 
     for (Event event : events) {

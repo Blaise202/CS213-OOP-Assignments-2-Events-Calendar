@@ -40,7 +40,7 @@ public abstract class Event {
         DateTimeFormatter dateFormatter = DateTimeFormatter.ofPattern("MMMM dd, yyyy");
         DateTimeFormatter timeFormatter = DateTimeFormatter.ofPattern("hh:mm a");
 
-        System.out.println("----------------------------------------");
+        System.out.println("\n");
         System.out.println("Event: " + name);
         System.out.println("----------------------------------------");
         System.out.println("Location: " + location);
@@ -48,6 +48,6 @@ public abstract class Event {
         System.out.println("Time: " + time.format(timeFormatter));
         System.out.println("Duration: " + duration);
         displaySpecificDetails(); // Polymorphic call
-        System.out.println("----------------------------------------\n");
+        System.out.println("----------------------------------------");
     }
 }
