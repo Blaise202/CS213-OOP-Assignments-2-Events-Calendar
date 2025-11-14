@@ -1,8 +1,6 @@
 import java.time.LocalDate;
 import java.time.LocalTime;
 
-import Interfaces.TeamBased;
-
 public class SportsEvent extends Event implements TeamBased {
   private String[] teams;
   private String details;

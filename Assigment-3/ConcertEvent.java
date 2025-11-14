@@ -1,8 +1,6 @@
 import java.time.LocalDate;
 import java.time.LocalTime;
 
-import Interfaces.Performable;
-
 public class ConcertEvent extends Event implements Performable {
   private String[] performers;
 

@@ -1,8 +1,6 @@
 import java.time.LocalDate;
 import java.time.LocalTime;
 
-import Interfaces.Talkable;
-
 public class GuestTalkEvent extends Event implements Talkable{
 
   // private attributes of guests' talks
