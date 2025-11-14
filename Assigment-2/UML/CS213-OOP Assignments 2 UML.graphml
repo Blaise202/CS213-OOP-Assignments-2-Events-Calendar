@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--Created by yFiles for HTML 3.0.0.4-->
+<graphml xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/xml/schema/graphml.html/2.0/ygraphml.xsd " xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:uml="http://www.yworks.com/yFilesHTML/demos/UMLDemoStyle/1.0" xmlns:yx="http://www.yworks.com/xml/yfiles-common/4.0" xmlns:y="http://www.yworks.com/xml/yfiles-common/3.0" xmlns:x="http://www.yworks.com/xml/yfiles-common/markup/3.0" xmlns:yjs="http://www.yworks.com/xml/yfiles-for-html/3.0/xaml" xmlns:sys="http://www.yworks.com/xml/yfiles-common/markup/primitives/2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<key id="d0" for="node" attr.name="NodeLabels" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/NodeLabels"/>
+	<key id="d1" for="node" attr.name="NodeGeometry" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/NodeGeometry"/>
+	<key id="d2" for="all" attr.name="UserTags" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/UserTags"/>
+	<key id="d3" for="node" attr.name="NodeStyle" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/NodeStyle"/>
+	<key id="d4" for="edge" attr.name="EdgeLabels" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/EdgeLabels"/>
+	<key id="d5" for="edge" attr.name="EdgeGeometry" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/EdgeGeometry"/>
+	<key id="d6" for="edge" attr.name="EdgeStyle" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/EdgeStyle"/>
+	<key id="d7" for="port" attr.name="PortLabels" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/PortLabels"/>
+	<key id="d8" for="port" attr.name="PortLocationParameter" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/PortLocationParameter">
+		<default>
+			<x:Static Member="y:FreeNodePortLocationModel.NodeCenterAnchored"/>
+		</default>
+	</key>
+	<key id="d9" for="port" attr.name="PortStyle" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/PortStyle">
+		<default>
+			<x:Static Member="y:VoidPortStyle.Instance"/>
+		</default>
+	</key>
+	<key id="d10" attr.name="SharedData" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/SharedData"/>
+	<data key="d10">
+		<y:SharedData>
+			<yjs:CssFill x:Key="1" cssString="#607d8b"/>
+			<yjs:CssFill x:Key="2" cssString="#a3f1bb"/>
+			<yjs:Arrow x:Key="3" fill="BLACK" type="NONE"/>
+		</y:SharedData>
+	</data>
+	<graph id="G" edgedefault="directed">
+		<node id="n0">
+			<data key="d1">
+				<y:RectD X="276.0761353346754" Y="223" Width="236.07550710842696" Height="278"/>
+			</data>
+			<data key="d3">
+				<uml:UMLNodeStyle>
+					<uml:UMLNodeStyle.fill>
+						<yjs:CssFill cssString="#607d8b"/>
+					</uml:UMLNodeStyle.fill>
+					<uml:UMLNodeStyle.highlightFill>
+						<yjs:CssFill cssString="#a3f1bb"/>
+					</uml:UMLNodeStyle.highlightFill>
+					<uml:UMLNodeStyle.model>
+						<uml:UMLClassModel stereotype="" constraint="" className="Event" attributesOpen="true" operationsOpen="true">
+							<uml:UMLClassModel.attributes>
+								<x:Array>
+									<sys:String><![CDATA[- name: String]]></sys:String>
+									<sys:String><![CDATA[- location: String]]></sys:String>
+									<sys:String><![CDATA[- date: LocalDate]]></sys:String>
+									<sys:String><![CDATA[- time: LocalTime]]></sys:String>
+									<sys:String><![CDATA[- duration: String]]></sys:String>
+								</x:Array>
+							</uml:UMLClassModel.attributes>
+							<uml:UMLClassModel.operations>
+								<x:Array>
+									<sys:String><![CDATA[+ Event()]]></sys:String>
+									<sys:String><![CDATA[+ getName(): String]]></sys:String>
+									<sys:String><![CDATA[+ getLocation(): String]]></sys:String>
+									<sys:String><![CDATA[+ getDate(): LocalDate]]></sys:String>
+									<sys:String><![CDATA[+ display(): void]]></sys:String>
+									<sys:String><![CDATA[- abstract displaySpecificDetails(): void]]></sys:String>
+								</x:Array>
+							</uml:UMLClassModel.operations>
+						</uml:UMLClassModel>
+					</uml:UMLNodeStyle.model>
+				</uml:UMLNodeStyle>
+			</data>
+			<port name="p0">
+				<data key="d8">
+					<y:FreeNodePortLocationModelParameter Ratio="1,0.5" Offset="5.684341886080802e-14,0"/>
+				</data>
+			</port>
+			<port name="p1">
+				<data key="d8">
+					<y:FreeNodePortLocationModelParameter Ratio="0,0.5"/>
+				</data>
+			</port>
+			<port name="p2">
+				<data key="d8">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5000000000000001,1"/>
+				</data>
+			</port>
+			<port name="p3">
+				<data key="d8">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5000000000000001,0"/>
+				</data>
+			</port>
+		</node>
+		<node id="n1">
+			<data key="d1">
+				<y:RectD X="542.1519792705861" Y="279" Width="210.07143828422454" Height="166"/>
+			</data>
+			<data key="d3">
+				<uml:UMLNodeStyle fill="{y:GraphMLReference 1}" highlightFill="{y:GraphMLReference 2}">
+					<uml:UMLNodeStyle.model>
+						<uml:UMLClassModel stereotype="" constraint="" className="ConcertEvent" attributesOpen="true" operationsOpen="true">
+							<uml:UMLClassModel.attributes>
+								<x:Array>
+									<sys:String><![CDATA[- performers: String[]]]></sys:String>
+								</x:Array>
+							</uml:UMLClassModel.attributes>
+							<uml:UMLClassModel.operations>
+								<x:Array>
+									<sys:String><![CDATA[+ ConcertEvent()]]></sys:String>
+									<sys:String><![CDATA[+ getPerformers(): String[]]]></sys:String>
+									<sys:String><![CDATA[- abstract displaySpecificDetails(): void]]></sys:String>
+								</x:Array>
+							</uml:UMLClassModel.operations>
+						</uml:UMLClassModel>
+					</uml:UMLNodeStyle.model>
+				</uml:UMLNodeStyle>
+			</data>
+			<port name="p0">
+				<data key="d8">
+					<y:FreeNodePortLocationModelParameter Ratio="0,0.5"/>
+				</data>
+			</port>
+		</node>
+		<node id="n2">
+			<data key="d1">
+				<y:RectD X="10.000341683881771" Y="263" Width="236.07550710842696" Height="198"/>
+			</data>
+			<data key="d3">
+				<uml:UMLNodeStyle fill="{y:GraphMLReference 1}" highlightFill="{y:GraphMLReference 2}">
+					<uml:UMLNodeStyle.model>
+						<uml:UMLClassModel stereotype="" constraint="" className="GuestTalkEvent " attributesOpen="true" operationsOpen="true">
+							<uml:UMLClassModel.attributes>
+								<x:Array>
+									<sys:String><![CDATA[- speaker: String]]></sys:String>
+									<sys:String><![CDATA[- abstractText: String]]></sys:String>
+								</x:Array>
+							</uml:UMLClassModel.attributes>
+							<uml:UMLClassModel.operations>
+								<x:Array>
+									<sys:String><![CDATA[+ GuestTalkEvent()]]></sys:String>
+									<sys:String><![CDATA[+ getSpeaker(): String]]></sys:String>
+									<sys:String><![CDATA[+ getAbstractText(): String]]></sys:String>
+									<sys:String><![CDATA[- abstract displaySpecificDetails(): void]]></sys:String>
+								</x:Array>
+							</uml:UMLClassModel.operations>
+						</uml:UMLClassModel>
+					</uml:UMLNodeStyle.model>
+				</uml:UMLNodeStyle>
+			</data>
+			<port name="p0">
+				<data key="d8">
+					<y:FreeNodePortLocationModelParameter Ratio="1,0.5"/>
+				</data>
+			</port>
+		</node>
+		<node id="n3">
+			<data key="d1">
+				<y:RectD X="276.0761353346754" Y="526" Width="236.07550710842696" Height="166"/>
+			</data>
+			<data key="d3">
+				<uml:UMLNodeStyle fill="{y:GraphMLReference 1}" highlightFill="{y:GraphMLReference 2}">
+					<uml:UMLNodeStyle.model>
+						<uml:UMLClassModel stereotype="" constraint="" className="PartyEvent " attributesOpen="true" operationsOpen="true">
+							<uml:UMLClassModel.attributes>
+								<x:Array>
+									<sys:String><![CDATA[- theme: String]]></sys:String>
+								</x:Array>
+							</uml:UMLClassModel.attributes>
+							<uml:UMLClassModel.operations>
+								<x:Array>
+									<sys:String><![CDATA[+ PartyEvent()]]></sys:String>
+									<sys:String><![CDATA[+ getTheme(): String]]></sys:String>
+									<sys:String><![CDATA[- abstract displaySpecificDetails(): void]]></sys:String>
+								</x:Array>
+							</uml:UMLClassModel.operations>
+						</uml:UMLClassModel>
+					</uml:UMLNodeStyle.model>
+				</uml:UMLNodeStyle>
+			</data>
+			<port name="p0">
+				<data key="d8">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5000000000000001,0"/>
+				</data>
+			</port>
+		</node>
+		<node id="n4">
+			<data key="d1">
+				<y:RectD X="276.0761353346754" Y="0" Width="236.07550710842696" Height="198"/>
+			</data>
+			<data key="d3">
+				<uml:UMLNodeStyle fill="{y:GraphMLReference 1}" highlightFill="{y:GraphMLReference 2}">
+					<uml:UMLNodeStyle.model>
+						<uml:UMLClassModel stereotype="" constraint="" className="SportsEvent " attributesOpen="true" operationsOpen="true">
+							<uml:UMLClassModel.attributes>
+								<x:Array>
+									<sys:String><![CDATA[- teams: String[]]]></sys:String>
+									<sys:String><![CDATA[- details: String]]></sys:String>
+								</x:Array>
+							</uml:UMLClassModel.attributes>
+							<uml:UMLClassModel.operations>
+								<x:Array>
+									<sys:String><![CDATA[+ SportsEvent()]]></sys:String>
+									<sys:String><![CDATA[+ getTeams(): String[]]]></sys:String>
+									<sys:String><![CDATA[+ getDetails(): String]]></sys:String>
+									<sys:String><![CDATA[- abstract displaySpecificDetails(): void]]></sys:String>
+								</x:Array>
+							</uml:UMLClassModel.operations>
+						</uml:UMLClassModel>
+					</uml:UMLNodeStyle.model>
+				</uml:UMLNodeStyle>
+			</data>
+			<port name="p0">
+				<data key="d8">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5000000000000001,1"/>
+				</data>
+			</port>
+		</node>
+		<edge id="e0" source="n0" target="n1" sourceport="p0" targetport="p0">
+			<data key="d6">
+				<yjs:PolylineEdgeStyle orthogonalEditing="true" sourceArrow="{y:GraphMLReference 3}">
+					<yjs:PolylineEdgeStyle.targetArrow>
+						<yjs:Arrow stroke="BLACK" fill="BLACK"/>
+					</yjs:PolylineEdgeStyle.targetArrow>
+				</yjs:PolylineEdgeStyle>
+			</data>
+		</edge>
+		<edge id="e1" source="n0" target="n2" sourceport="p1" targetport="p0">
+			<data key="d6">
+				<yjs:PolylineEdgeStyle orthogonalEditing="true" sourceArrow="{y:GraphMLReference 3}">
+					<yjs:PolylineEdgeStyle.targetArrow>
+						<yjs:Arrow stroke="BLACK" fill="BLACK"/>
+					</yjs:PolylineEdgeStyle.targetArrow>
+				</yjs:PolylineEdgeStyle>
+			</data>
+		</edge>
+		<edge id="e2" source="n0" target="n3" sourceport="p2" targetport="p0">
+			<data key="d6">
+				<yjs:PolylineEdgeStyle orthogonalEditing="true" sourceArrow="{y:GraphMLReference 3}">
+					<yjs:PolylineEdgeStyle.targetArrow>
+						<yjs:Arrow stroke="BLACK" fill="BLACK"/>
+					</yjs:PolylineEdgeStyle.targetArrow>
+				</yjs:PolylineEdgeStyle>
+			</data>
+		</edge>
+		<edge id="e3" source="n0" target="n4" sourceport="p3" targetport="p0">
+			<data key="d6">
+				<yjs:PolylineEdgeStyle orthogonalEditing="true" sourceArrow="{y:GraphMLReference 3}">
+					<yjs:PolylineEdgeStyle.targetArrow>
+						<yjs:Arrow stroke="BLACK" fill="BLACK"/>
+					</yjs:PolylineEdgeStyle.targetArrow>
+				</yjs:PolylineEdgeStyle>
+			</data>
+		</edge>
+	</graph>
+</graphml>
