@@ -57,4 +57,33 @@ public class TestEvent {
         assertEquals("Labadi Beach", party.getLocation());
     }
 
+        @Test
+    public void testTalkEventCreation() {
+        GuestTalkEvent talk1 = new GuestTalkEvent(
+            "AI in Modern Software Engineering",
+            "Norton-Motulsky Hall",
+            LocalDate.of(2024, 10, 25),
+            LocalTime.of(14, 0),
+            "1.5 hours",
+            "Dr. Ayorkor Korsah",
+            "Exploring the transformative impact of AI..."
+        );
+        
+        assertEquals("Dr. Ayorkor Korsah", talk1.getSpeaker());
+        assertEquals("Norton-Motulsky Hall", talk1.getLocation());
+
+        GuestTalkEvent talk2 = new GuestTalkEvent(
+            "Entrepreneurship in the Digital Age",
+            "Online via Zoom",
+            LocalDate.of(2024, 11, 5),
+            LocalTime.of(17, 0),
+            "1 hour",
+            "Patrick Awuah",
+            "A discussion on opportunities..."
+        );
+        
+        assertEquals("Patrick Awuah", talk2.getSpeaker());
+        assertEquals(LocalDate.of(2024, 11, 5), talk2.getDate());
+    }
+
 }
