@@ -9,8 +9,9 @@ public class ConcertEvent extends Event implements Performable {
     this.performers = performers != null ? performers.clone() : new String[0];
   }
 
+  @Override
   public String[] getPerformers() {
-    return performers;
+    return performers.clone();
   }
 
   @Override
