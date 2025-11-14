@@ -53,7 +53,7 @@ This compiles all classes in the project.
 Run the driver program:
 
 ```bash
-java EventDriver
+java Driver
 ```
 
 This will:
