@@ -1,7 +1,9 @@
 import java.time.LocalDate;
 import java.time.LocalTime;
 
-public class GuestTalkEvent extends Event {
+import Interfaces.Talkable;
+
+public class GuestTalkEvent extends Event implements Talkable{
 
   // private attributes of guests' talks
   private String speaker;
@@ -15,10 +17,12 @@ public class GuestTalkEvent extends Event {
   }
 
   // getters
+  @Override
   public String getSpeaker(){
     return speaker;
   }
-  public String getAbstracText(){
+  @Override
+  public String getAbstractText(){
     return abstractText;
   }
 
