@@ -1,7 +1,9 @@
 import java.time.LocalDate;
 import java.time.LocalTime;
 
-public class SportsEvent extends Event {
+import Interfaces.TeamBased;
+
+public class SportsEvent extends Event implements TeamBased {
   private String[] teams;
   private String details;
 
@@ -15,10 +17,12 @@ public class SportsEvent extends Event {
     this.details = details;
   }
 
+  @Override
   public String[] getTeams(){
-    return teams;
+    return teams.clone();
   }
-
+  
+  @Override
   public String getDetails(){
     return details;
   }
@@ -27,6 +31,6 @@ public class SportsEvent extends Event {
   public void displaySpecificDetails(){
     System.out.println("Event Type: Sports Event");
     System.out.println("Match: " + teams[0] + " vs " + teams[1]);
-    System.out.println("Details: " + details);
+    System.out.println("Details: " + (details != null ? details : "N/A"));
   }
 }
