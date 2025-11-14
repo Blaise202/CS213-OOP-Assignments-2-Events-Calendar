@@ -3,7 +3,7 @@ import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
 
 public abstract class Event {
-    // Common attributes for all events
+  // Common attributes for all events
     protected String name;
     protected String location;
     protected LocalDate date;
@@ -30,6 +30,14 @@ public abstract class Event {
 
     public LocalDate getDate() {
         return date;
+    }
+
+    public LocalTime getTime() {
+      return time;
+    }
+
+    public String getDuration() {
+      return duration;
     }
 
     // Abstract method to be implemented by subclasses
