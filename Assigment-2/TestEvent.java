@@ -57,7 +57,7 @@ public class TestEvent {
         assertEquals("Labadi Beach", party.getLocation());
     }
 
-        @Test
+    @Test
     public void testTalkEventCreation() {
         GuestTalkEvent talk1 = new GuestTalkEvent(
             "AI in Modern Software Engineering",
